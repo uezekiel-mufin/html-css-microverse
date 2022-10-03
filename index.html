@@ -12,7 +12,9 @@
     <p id="description">
       Thank you for taking the time to help us improve the platform
     </p>
-    <input id="survey-form">
+    <form >
+       <fieldset>
+      <input id="survey-form">
       <label for="name">Name</label>
       <input type="text" id="name" placeholder="Name" required />
       <label for="email">Email</label>
@@ -25,13 +27,15 @@
       />
       <label for="number">Number</label>
       <input type="number" id="number" min="1" max="50" />
+       </fieldset>
+
+     <fieldset>
       <input type="radio" name="radio_button" />
       <input type="radio" name="radio_button" />
       <input type="checkbox" value="frontend" >frontend</input>
       <input type="checkbox" value="devops" >devops</input>
       <input type="checkbox" value="fullstack" >fullstack</input>
       <input type="checkbox" value="backend" >backend</input>
-
       <input type="number" placeholder="Number" id="number" min="1" max="50" />
       <select id="dropdown">
         <option value="Happy with service">Happy with service</option>
@@ -39,6 +43,7 @@
       </select>
       <textarea rows="5" col="20"></textarea>
       <button type="submit">Submit</button>
+      </fieldset>
     </form>
 
     <!--

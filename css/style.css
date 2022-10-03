@@ -1,0 +1,13 @@
+body {
+  padding: 1rem;
+}
+
+#title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#description {
+  font-size: 2rem;
+  font-weight: bold;
+}
