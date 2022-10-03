@@ -1,5 +1,6 @@
 body {
   padding: 1rem;
+  background-image: url("https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000");
 }
 
 #title {
@@ -10,4 +11,15 @@ body {
 #description {
   font-size: 2rem;
   font-weight: bold;
+}
+
+form {
+  background-image: url("https://wallpaper.dog/large/20489485.jpg");
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
 }
