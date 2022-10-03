@@ -36,16 +36,22 @@
         </fieldset>
 
         <fieldset>
-          <label for="">Would you recommend freeCodeCamp to a friend?</label>
-          <label for="">
+          <label >Would you recommend freeCodeCamp to a friend?</label>
+          <label class="radios">
             <input type="radio" name="radio_button" />maybe
           </label>
-          <label for="">
+          <label class="radios">
             <input type="radio" name="radio_button" />definitely
           </label>
-          <label for="">
+          <label class="radios">
             <input type="radio" name="radio_button" />not sure
           </label>
+
+          <label>Which option best describes your current role ?</label>
+          <select id="dropdown">
+            <option value="Happy with service">Happy with service</option>
+            <option value="Unhappy with service">Unhappy with service</option>
+          </select>
 
           <label for="checkbox"
             >What would you like to see improved? (Check all that apply)</label
@@ -91,22 +97,8 @@
             >
           </div>
 
-          <input
-            type="number"
-            placeholder="Number"
-            id="number"
-            min="1"
-            max="50"
-          />
-
-          <label>Which option best describes your current role ?</label>
-          <select id="dropdown">
-            <option value="Happy with service">Happy with service</option>
-            <option value="Unhappy with service">Unhappy with service</option>
-          </select>
-
-          <h4 class="text_area">Any suggestions?</h4>
-          <textarea rows="5" col="20"></textarea>
+          <h4 class="text_area" >Any suggestions?</h4>
+          <textarea placeholder="Enter your comment here" rows="5" col="20"></textarea>
           <button type="submit">Submit</button>
         </fieldset>
       </form>

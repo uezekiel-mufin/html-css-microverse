@@ -61,8 +61,19 @@ button {
   padding: 10px;
   background-color: #37af65;
   border: none;
+  color: white
 }
 
 .text_area {
   margin: 0px;
 }
+
+textarea {
+  padding: 10px;
+}
+
+.radios {
+  display: flex;
+  align-items: center;
+}
+
