@@ -36,69 +36,83 @@
         </fieldset>
 
         <fieldset>
-          <label >Would you recommend freeCodeCamp to a friend?</label>
-          <label class="radios">
-            <input type="radio" name="radio_button" />maybe
-          </label>
-          <label class="radios">
-            <input type="radio" name="radio_button" />definitely
-          </label>
-          <label class="radios">
-            <input type="radio" name="radio_button" />not sure
-          </label>
-
-          <label>Which option best describes your current role ?</label>
-          <select id="dropdown">
-            <option value="Happy with service">Happy with service</option>
-            <option value="Unhappy with service">Unhappy with service</option>
-          </select>
-
-          <label for="checkbox"
-            >What would you like to see improved? (Check all that apply)</label
-          >
-          <div class="checks">
-            <label for="frontend">
-              <input
-                id="frontend"
-                class="checkboxes"
-                type="checkbox"
-                value="frontend"
-              />frontend</label
-            >
+          <div class="radio_label">
+            <label>Would you recommend freeCodeCamp to a friend?</label>
+            <div class="radio_group">
+              <label class="radios">
+                <input type="radio" name="radio_button" />maybe
+              </label>
+              <label class="radios">
+                <input type="radio" name="radio_button" />definitely
+              </label>
+              <label class="radios">
+                <input type="radio" name="radio_button" />not sure
+              </label>
+            </div>
           </div>
-          <div class="checks">
-            <label for="devops">
-              <input
-                id="devops"
-                class="checkboxes"
-                type="checkbox"
-                value="devops"
-              />devops</label
-            >
-          </div>
-          <div class="checks">
-            <label for="fullstack">
-              <input
-                id="fullstack"
-                class="checkboxes"
-                type="checkbox"
-                value="fullstack"
-              />fullstack</label
-            >
-          </div>
-          <div class="checks">
-            <label for="backend">
-              <input
-                id="backend"
-                class="checkboxes"
-                type="checkbox"
-                value="backend"
-              />backend</label
-            >
+          <div class="select">
+            <label>How do you feel about our service ?</label>
+            <select id="dropdown">
+              <option value="Happy with service">Happy with service</option>
+              <option value="Unhappy with service">Unhappy with service</option>
+            </select>
           </div>
 
-          <h4 class="text_area" >Any suggestions?</h4>
-          <textarea placeholder="Enter your comment here" rows="5" col="20"></textarea>
+          <div class="check_label">
+            <label for="checkbox"
+              >What would you like to see improved? (Check all that
+              apply)</label
+            >
+            <div class="check_group">
+              <div class="checks">
+                <label for="frontend">
+                  <input
+                    id="frontend"
+                    class="checkboxes"
+                    type="checkbox"
+                    value="frontend"
+                  />frontend</label
+                >
+              </div>
+              <div class="checks">
+                <label for="devops">
+                  <input
+                    id="devops"
+                    class="checkboxes"
+                    type="checkbox"
+                    value="devops"
+                  />devops</label
+                >
+              </div>
+              <div class="checks">
+                <label for="fullstack">
+                  <input
+                    id="fullstack"
+                    class="checkboxes"
+                    type="checkbox"
+                    value="fullstack"
+                  />fullstack</label
+                >
+              </div>
+              <div class="checks">
+                <label for="backend">
+                  <input
+                    id="backend"
+                    class="checkboxes"
+                    type="checkbox"
+                    value="backend"
+                  />backend</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <h4 class="text_area">Any suggestions?</h4>
+          <textarea
+            placeholder="Enter your comment here"
+            rows="5"
+            col="20"
+          ></textarea>
           <button type="submit">Submit</button>
         </fieldset>
       </form>
